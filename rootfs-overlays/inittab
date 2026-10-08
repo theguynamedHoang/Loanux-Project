@@ -1,0 +1,6 @@
+::sysinit:/system/lsid/rcS
+ttyS0::respawn:/kernel/usr/sbin/getty -L -l /kernel/usr/bin/login 115200 ttyS0 vt100
+tty1::respawn:/kernel/usr/sbin/getty -l /kernel/usr/bin/login 38400 tty1
+::ctrlaltdel:/kernel/usr/sbin/reboot
+::shutdown:/system/lsid/rcK
+::restart:/kernel/usr/sbin/init

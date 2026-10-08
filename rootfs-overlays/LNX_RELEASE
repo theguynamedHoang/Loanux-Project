@@ -1,0 +1,7 @@
+SYSTEM = "loanux"
+ID = "lnx"
+NAME = "Loanux"
+FULLNAME = "Loanux Project"
+VERSION_CODENAME = "none"
+VERSION_ID = "1.0"
+LINUX_VERSION = "6.18.54"

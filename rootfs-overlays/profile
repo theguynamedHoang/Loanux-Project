@@ -1,0 +1,14 @@
+# System PATH, Do not change the path if you don't know what are you doing
+export PATH=/kernel/usr/binuser:/kernel/usr/bin:/kernel/usr/bapps
+
+
+if [ "$(id -u)" = 0 ]; then
+  export PATH=/kernel/usr/binad:/kernel/usr/sbin:$PATH
+fi
+
+# PS customization
+export PS1='\u-\h:\w\$ '
+
+# Alias here
+alias hello='echo "Hi there!'
+alias ll='ls -la'
