@@ -1,0 +1,13 @@
+# Source
+source/
+linux-*/
+busybox-*/
+*.tar.*
+
+# Output
+*.img
+*.iso
+*.log
+image/
+**/boot/vmloanux
+**/kernel/usr/bin/busybox
